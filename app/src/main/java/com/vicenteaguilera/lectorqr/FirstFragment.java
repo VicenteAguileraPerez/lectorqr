@@ -40,7 +40,8 @@ public class FirstFragment extends Fragment {
         }
     }
 
-    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, Bundle savedInstanceState)
+    {
         super.onViewCreated(view, savedInstanceState);
         textView = view.findViewById(R.id.id_texto);
         imageView = view.findViewById(R.id.imageView);
